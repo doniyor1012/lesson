@@ -4,7 +4,6 @@
     $b=111;
     if ($a>99 && $b>99){
     echo "A vaB sonlar yuzlik xonasidagi son" ;
-
     }
     else{
     echo "a va b sonlar yuzlik xonasidagi son emas";
