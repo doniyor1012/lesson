@@ -15,7 +15,7 @@ echo $son;  */
 
 // 3 Kun boshidan boshlab N sekund vaqt o'tti.
 // Kun boshidan boshlab qancha minut va sekund o’tganini aniqlovchi programma tuzilsin.
-  /*  $n=7200000;
+    $n=7200000;
 $s=3600000;
 $m=60000;
 $d=1000;
@@ -25,7 +25,7 @@ $son1=intval($n/$m);
 $son2=intval($n/$d);
 echo $son .'<br>';
 echo $son1.'<br>';
-echo $son2; */
+echo $son2;
 
 
 
