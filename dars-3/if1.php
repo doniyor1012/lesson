@@ -9,10 +9,30 @@ if ($a){
 }else {
     echo "manfiy bo'lsa o'zgartirilmasin.";
 }   */
-//Hafta kunlari quyidagicha tartibda berilgan. O-yakshanba, 1-dushanba, 2-seshanba, 3- chorshanba,
-// 4-payshanba, 5-juma, 6-shanba. 1-365 oraliqda yotuvchi K soni berilgan. Agar 1-yanvar dushanba
-// bo’lsa, kiritilgan K- kun haftaning qaysi kuniga to'g'ri kelishini aniqlovchi programma tuzilsin.
-$kun=array("yakshanba","dushanba","seshanba","chorshanba","payshanba","juma","shanba");
 
-print_r($kun);
+//Uchta butun son berilgan. Shu sonlar orasidan nechta musbat son borligini aniqlovchi programma tuzilsin.
+  /*  $a=4;
+$b=1;
+$c=3;
+if ($a>0 && $b>0 && $c>0){
+    echo "hammasi musbat";
+}elseif ($a<0 && $b<0 && $c<0){
+    echo "xammasi manfiy";
+}else{
+    echo "sonlar no'lga teng";
+}   */
+
+//Uchta butun son berilgan. Shu sonlar orasidan nechta musbat va
+//manfiy son borligini aniqlovchi programma tuzilsin.
+$a=-1;
+$b=-1;
+$c=3;
+if ($a>0 && $b>0 && $c<0 || $a<0 && $b<0 && $c>0){
+    echo "2musbat yoki 2ta manfiy";
+}elseif ($a>0 && $b<0 && $c<0 || $a<0 && $b>0 && $c>0){
+    echo "1ta manfiy yoki 1ta musbat";
+}else{
+    echo "xammasi musbat yoki manfiy";
+}
+
 ?>
