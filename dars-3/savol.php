@@ -1,8 +1,16 @@
 <?php
-$n=7;
-$cnt=0;
-for ($i=1;$i<$n;$i++){
-    if ($n%$i==0){$cnt++;}
-}if($cnt==2){'tub';}else{'tubemas';}
-echo $n;
+$num = 10e8;
+$n = 0;
+for($i = 2; $i < sqrt($num); $i++) {
+    if($num % $i == 0){
+        $n++;
+
+    }
+}
+if ($n ==0){
+    echo $num."tub son ";
+}
+else {
+    echo $num."tub emas ";
+}
 ?>
