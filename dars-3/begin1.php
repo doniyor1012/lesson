@@ -4,6 +4,7 @@
 $a = 10;
 $b = -10;
 
+
 if ($a!=0 && $b!=0){
     echo $a+$b." ";
     echo $a*$b." ";
@@ -14,5 +15,4 @@ if ($a!=0 && $b!=0){
 else{
     echo "a va b sonlar nolga teng bo'lmasligi kerak";
 }
-
 ?>
