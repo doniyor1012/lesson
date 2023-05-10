@@ -1,7 +1,7 @@
 <?php
 //integer Uzunlik L santimetrda berilgan. Undagi to'liq metrlar sonini aniqlovchi programma tuzilsin. (1m=100sm)
    /* $l= 300 ;
-$a=(100/1);
+$a=(100);
 $b= $l/$a;
 var_dump($b);
 */
