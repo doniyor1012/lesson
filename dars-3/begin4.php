@@ -1,4 +1,5 @@
 <?php
+//4   Aylananing diametri  d  berilgan . Uning uzunligi  aniqlansin . L = π d ; π = 3,15
 $d = isset($_GET['d']) ? $_GET['d'] : 0;
 $l=0;
 $l=M_PI*$d;
