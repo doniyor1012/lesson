@@ -1,4 +1,5 @@
 <?php
+//3 To’g’ri to’rtburchakning tomonlari 	  a va  b berilgan . Uning yuzasi S = a b ;   va  P = 2( a + b )   perimetri aniqlansin .
 $a = isset($_POST['a']) ? $_POST['a'] : 0;
 $b = isset($_POST['b']) ? $_POST['b'] : 0;
 $p= 2*($a+$b);
