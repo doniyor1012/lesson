@@ -1,4 +1,5 @@
 <?php
+//Kvadratning tomoni    a  berilgan .Uning yuzi aniqlansin . S = a2 ;
 $a=isset($_GET['a']) ? $_GET['a']:null;
 $s=$a*$a;
 
