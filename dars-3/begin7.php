@@ -1,7 +1,8 @@
 <?php
+//.  Ikkita   son  a   va    b   berilgan.    Ularning   o'rta     arifmetigi         aniqlansin
 $a = isset($_POST['a']) ? $_POST['a'] : 0;
 $b = isset($_POST['b']) ? $_POST['b'] : 0;
-$c=($a+$b)/4;
+$c=($a+$b)/2;
 echo $c;
 ?>
 <!doctype html>
