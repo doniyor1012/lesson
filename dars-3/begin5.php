@@ -1,4 +1,5 @@
 <?php
+//Kubning yon tomoni a berilgan. Uning hajmim V=a 3   va to’la sirti   S= 6 a aniqlansin.
 $a=isset($_GET['a']) ? $_GET['a']:null;
 $v=$a*$a*$a;
 $s=6*$a;
