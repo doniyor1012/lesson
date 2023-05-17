@@ -1,13 +1,14 @@
 <?php
-//Uchta son berilgan. Shu sonlarni o'ratachasi (ya’ni katta va kichik sonlar orasidagi son) ni aniqlovchi programma tuzilsin.
-$a=1;
-$b=9;
-$c=5;
-if (  $b>$a && $a>$c || $c>$a && $a>$b ){
+//Uchta son berilgan. Shu sonlarni kichigini aniqlovchi programma tuzilsin.
+    $a=9;
+    $b=5;
+    $c=7;
+
+if ($a<$b && $a<$c){
     echo $a;
-}elseif ($a>$b && $b>$c || $c>$b && $b>$a ){
+}elseif ($b<$a&&$b<$c){
     echo $b;
-}elseif ( $a>$c && $c>$b || $b>$c && $c>$a){
+}elseif ($c<$a&& $c<$b){
     echo $c;
 }
 

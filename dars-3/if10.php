@@ -1,20 +1,13 @@
 <?php
-//Butun son berilgan. Berilgan sonni “musbat toq son",
-// "manfiy juft son", "son nolga teng" va h.k. ekranga yozadigan programma tuzilsin.
-$a=readline();
+//A va V butun sonlari berilgan. Agar o'zgaruvchilar o'zaro teng bo'lmasa, A va V o'zgaruvchilari ularning yig'indisini o'zlashtirsin.
+// Agar teng bo'lsa, 0 ni o'zlashtirsin. A va V ning qiymati ekranga chiqarilsin
+$a=7;
+$b=7;
 
-if ($a>99){
-  echo  "3 xonali son";
-
-}elseif ($a<0){
-    echo "manfiy toq yoki juft son";
+if ($a != $b){
+ $a+=$b;
+$b=$a;
+}else{
+    $a=0;$b=0;
 }
-elseif ($a==0){
-    echo "son nolga teng";
-}elseif($a>9){
-    echo "2 xonali son";
-}elseif($a>0){
-    echo  " musbat toq yoki juft son";
-}
-
-
+echo $a."\n".$b;

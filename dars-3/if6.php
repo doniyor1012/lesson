@@ -1,14 +1,15 @@
 <?php
-//Uchta son berilgan. Shu sonlarni kichigini aniqlovchi programma tuzilsin.
-    $a=9;
-    $b=5;
-    $c=7;
-
-if ($a<$b && $a<$c){
-    echo $a;
-}elseif ($b<$a&&$b<$c){
+//. Ikkita butun son berilgan. Shu sonlarning kattasini aniqlovchi programma tuzilsin.
+    $a=3;
+    $b=3;
+    $x=$a;
+    if ($x > $b && $x > $b && $x==$x ){
+    echo $x ;
+    }   elseif ($x<$b && $x<$b && $x==$x){
     echo $b;
-}elseif ($c<$a&& $c<$b){
-    echo $c;
-}
+    }
+    else{
+    echo "sonlar teng";
+
+    }
 
