@@ -3,7 +3,7 @@
 //. 1-365 oraliqda yotuvchi K soni berilgan. Agar 1-yanvar dushanba bo’lsa, kiritilgan
 // K- kun haftaning qaysi kuniga to'g'ri kelishini aniqlovchi programma tuzilsin.
 $n=4;
-$k=50;
+$k=120;
 $x=intval($k/$n)%7;
 echo $x;
 
