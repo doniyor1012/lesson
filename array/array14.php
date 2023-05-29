@@ -3,17 +3,19 @@
 // orasidan juft indekslilarini keyin toq indekslilarini chiqaruvchi programma tuzilsin.
 // A[0], A[2], A[4],... A[1], A[3], A[5],.... Shart operatori ishlatilmasin.
 $n=[1,2,3,4,5,6,7,8,9,];
-
-$son = array();
+$juft=[];
+$toq = array();
 foreach ($n as $index => $element) {
     if ($element % 2 != 0) {
         echo $index . " ";
-        $son[] = $index;
+        $toq[] = $index;
     }
+}foreach (array_reverse($n)  as $index => $element){
+ if ($element % 2 !=1){
+     echo $index.' ';
+     $juft[]= $index;
+ }
 }
-// Toqlar soni
-$hisoblash = count($son);
-echo "\nToqlar soni = " . $hisoblash;
 
-
-
+$res=array_merge($toq,$juft);
+echo "\n natija:".implode(' ',$res);
