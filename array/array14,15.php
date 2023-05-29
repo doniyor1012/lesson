@@ -6,12 +6,12 @@ $n=[1,2,3,4,5,6,7,8,9,];
 $juft=[];
 $toq = array();
 foreach ($n as $index => $element) {
-    if ($element % 2 != 0) {
+    if ($index % 2 != 0) {
         echo $index . " ";
         $toq[] = $index;
     }
 }foreach (array_reverse($n)  as $index => $element){
- if ($element % 2 !=1){
+ if ($index % 2 !=1){
      echo $index.' ';
      $juft[]= $index;
  }
