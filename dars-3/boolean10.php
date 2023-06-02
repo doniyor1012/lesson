@@ -1,6 +1,6 @@
 <?php
 //Ikkita butun A va V sonlari berilgan. Jumlani rostlikka tekshiring: “A va V sonlarning faqat bittasi toq son".
-/*    $a=3;
+/*   $a=3;
     $b=2;
 if ($a % 2!=0 && $b % 2!=0){
     echo "A va B sonlarning faqat bittasi toq";
