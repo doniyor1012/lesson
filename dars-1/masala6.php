@@ -1,7 +1,7 @@
 <?php
 
 // n sonigacha fibonachi sonlarni ketma krtligini aniqlash
-     $f1=0;
+$f1=0;
 $f2=1;
 print ($f1)."\n";
 print ($f2)."\n";

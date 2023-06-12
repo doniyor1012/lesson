@@ -4,7 +4,7 @@
 // A[n-1], A[n-3],... A[1]. Shart operatori ishlatilmasin.
 
 
-$numbers = [1, 3, 5, 7, 9, 11, 13];  // Berilgan massiv
+$numbers = [1,2,3,4,5,6,7,8,9];  // Berilgan massiv
 $n = count($numbers);  // Massivdagi elementlar soni
 
 $res = [];

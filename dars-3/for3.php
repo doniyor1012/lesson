@@ -4,7 +4,7 @@
 $a = 5;
 $b = 15;
 for ($i = $b; $i > $a; $i--) {
-    echo $i . " <br>";
+    echo $i . " \n";
 }
 
 echo  $i;

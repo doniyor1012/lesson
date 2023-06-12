@@ -1,5 +1,5 @@
 <?php
-//Oy raqamini berilgan. Kiritilgan oy qaysi
+//р/Oy raqamini berilgan. Kiritilgan oy qaysi
 // faslga tegishli ekanligini chiqaruvchi programma tuzilsin. (Masalan: 2 chi oy, “qish")
 $w="11-oy";
 $res="";
