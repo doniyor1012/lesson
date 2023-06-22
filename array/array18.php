@@ -3,6 +3,29 @@
 // kichkina bo’lgan birinchi elementni chiqaruvchi programma tuzilsin.
 // Agar bunday element bo’lmasa, nol chiqarilsin.
 
-$array=[1,2,3,4,5,6,7,8,9];
-$n=count($array);
+
+// Massivni namuna sifatida yaratamiz
+$elements = [9, 7, 5, 3,  4, 2, 8];
+
+// Massivning uzunligi
+$n = count($elements);
+
+// Oxirgi elementni olish
+$oxirgielement = $elements[$n - 1];
+
+// Kichik elementni qidirish
+$kichik = $elements[0];
+for ($i = 1; $i < $n; $i++) {
+    if ($elements[$i] < $kichik) {
+        $kichik = $elements[$i];
+    }
+}
+
+// Massivning oxirgi elementidan kichik bo'lgan birinchi elementni chiqarish
+if ($kichik < $oxirgielement) {
+    echo $kichik;
+} else {
+    echo "0";
+}
+
 
