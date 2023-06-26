@@ -20,7 +20,7 @@ $x=count($b);
          foreach ($b as $element){
             echo $element.' ';
  }
- $w=count($s);
+ $w = count($s);
     echo "\n S massiv elementlar soni $w";
        echo "\n S massiv :";
           foreach ($s as $element){

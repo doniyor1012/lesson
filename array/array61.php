@@ -8,8 +8,8 @@ $n = count($a);
 $b = [];
 for ($k = 0; $k < $n; $k++) {
     $sum = array_sum(array_slice($a, $k)); // massivning k-elementdan boshlab oxirigacha bo'lgan elementlari yig'indisini hisoblaymiz
-    $mean = $sum / ($n - $k); // yig'indining o'rta arifmetigini hisoblaymiz
-    $b[] = $mean;
+    $x = $sum / ($n - $k); // yig'indining o'rta arifmetigini hisoblaymiz
+    $b[] = $x;
 }
 echo "b massivi elementlari: ";
 foreach ($b as $element) {

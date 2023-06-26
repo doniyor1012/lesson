@@ -7,10 +7,16 @@ $a=[1,2,3,4,5,6,7,8,9];
 
 //b massivdi hosil qilamiz
 $b=[];
-foreach ($a as $key => $element){
-   $key= $element % 2 == 0;
-    $b[]= $key;
-
-} foreach ($b as $element){
-    echo "element ".count($b);
+foreach ($a as $element) {
+    if ($element % 2 == 0) {
+        $b[] = $element;
+  }
+}
+foreach ($a as $element){
+if ($element%2==1){
+    $b[]= $element ;
+}
+}  echo "B massiv : ";
+foreach ($b as $element){
+    echo $element.' ';
 }
