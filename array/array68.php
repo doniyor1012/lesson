@@ -2,7 +2,7 @@
 //n ta elementdan iborat massiv berilgan. Massivning
 // eng kichik va eng katta elementlari o’rni almashtirilsin.
 
-$n=[1,2,3,4,5,6,];
+$n=[1,2,3,4,5,6,7];
 $min=1;
 $max=6;
 for ($i=1;$i<count($n);$i++){

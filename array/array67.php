@@ -2,7 +2,7 @@
 //n ta butun sonlardan iborat massiv berilgan. Massivdagi har bir toq sonni
 // oxirgi toq songa orttiruvchi programma tuzilsin.
 // Agar toq sonlar bo’lmasa, massiv o’zgarishsiz qoldirilsin.
-$a = [1, 2, 3, 4, 5];
+$a = [1, 2, 3, 4, 5,6];
 $found = false; // Toq son topilganligini tekshirish uchun flag
 $n = count($a); // Massiv uzunligi
 
